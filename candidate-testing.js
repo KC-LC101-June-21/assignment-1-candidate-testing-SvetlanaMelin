@@ -31,7 +31,7 @@ const input = require('readline-sync');
 for (let i = 0;i < questions.length;i++) {
 console.log(questions[i]);
 candidateAnswers[i] = input.question('Your Answer: ');
-console.log(`Correct Answer: ${correctAnswers[i]}\n`);
+console.log(`Correct Answer: ${correctAnswers[i]}\n`)
 
 }
 
@@ -50,7 +50,7 @@ let n = 0;
 //let numberOfCorrectAnswers=[]
 let numberOfQuestions;
 for (i = 0;i<questions.length;i++){
-if ((candidateAnswers[i] ==correctAnswers[i])||
+if ((candidateAnswers[i] == correctAnswers[i])||
 (candidateAnswers[i].toLowerCase() == correctAnswers[i].toLowerCase())){
 
   n++;
@@ -71,9 +71,9 @@ grade = (n/numberOfQuestions)*100;
 console.log(`>>> Overall Grade: ${Math.round(grade)} (${n} of ${numberOfQuestions} responses correct <<<`);
 
 if (grade >= 50){
-console.log(`>>> Status: PASSED <<<`);
+console.log(`>>> Status: PASSED <<<`)
 
-}else{ console.log(`>>> Status: FAILED <<<`);
+}else{ console.log(`>>> Status: FAILED <<<`)
 }
 
 }
