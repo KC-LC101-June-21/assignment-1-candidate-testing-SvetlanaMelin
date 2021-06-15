@@ -62,11 +62,11 @@ if ((candidateAnswers[i] == correctAnswers[i])||
   //console.log(candidateAnswers[i])
   //console.log(correctAnswers[i])
   //console.log(n)
-}
-}
+
+
 numberOfQuestions = questions.length;
 numberOfQuestions = Number(numberOfQuestions);
-grade = (n/numberOfQuestions)*100;
+grade = (n/numberOfQuestions)*100;}}
 //console.log(numberOfQuestions)
 //console.log(typeof(numberOfQuestions))}
 console.log(`>>> Overall Grade: ${Math.round(grade)}% (${n} of ${numberOfQuestions} responses correct <<<`);
