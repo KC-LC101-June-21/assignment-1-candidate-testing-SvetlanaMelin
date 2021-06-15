@@ -28,7 +28,7 @@ function askQuestion() {
 
 const input = require('readline-sync');
 for (let i = 0;i < questions.length;i++) {
-console.log(questions[i]);
+console.log(`${i+1})${questions[i]}`);
 candidateAnswers[i] = input.question('Your Answer: ');
 console.log(`Correct Answer: ${correctAnswers[i]}\n`);
 
