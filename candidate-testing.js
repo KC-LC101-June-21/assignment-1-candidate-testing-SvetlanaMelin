@@ -1,7 +1,7 @@
 const quiz = require('./candidate-testing');
 let candidateName = '';
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
-let questions = [ 'Who was the first American woman in space? ',"True or false: 5 kilometer == 5000 meters? ","(5 + 3)/2 * 10 = ? ",
+let questions = [ '1)Who was the first American woman in space? ',"True or false: 5 kilometer == 5000 meters? ","(5 + 3)/2 * 10 = ? ",
 "Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2? ","What is the minimum crew size for the ISS? " ];
 let candidateAnswers = [];
 let correctAnswers = ["Sally Ride", "true", "40", "Trajectory", "3"];
@@ -73,7 +73,7 @@ grade = (n/numberOfQuestions)*100;
 //console.log(grade)
 //console.log(numberOfQuestions)
 //console.log(typeof(numberOfQuestions))}
-console.log(`>>> Overall Grade: ${Math.round(grade)}% (${n} of ${numberOfQuestions} responses correct <<<`);
+console.log(`>>> Overall Grade: ${Math.round(grade)}% (${n} of ${numberOfQuestions})responses correct <<<`);
 
 if (grade >= 50){
 console.log(`>>> Status: PASSED <<<`)
