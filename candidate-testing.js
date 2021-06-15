@@ -66,7 +66,13 @@ if ((candidateAnswers[i] == correctAnswers[i])||
 
 numberOfQuestions = questions.length;
 numberOfQuestions = Number(numberOfQuestions);
-grade = (n/numberOfQuestions)*100;}}
+grade = (n/numberOfQuestions)*100;
+
+
+
+
+}}
+//console.log(grade)
 //console.log(numberOfQuestions)
 //console.log(typeof(numberOfQuestions))}
 console.log(`>>> Overall Grade: ${Math.round(grade)}% (${n} of ${numberOfQuestions} responses correct <<<`);
@@ -76,7 +82,7 @@ console.log(`>>> Status: PASSED <<<`)
 
 }else{ console.log(`>>> Status: FAILED <<<`)
 }
-
+return grade;
 }
 
 //----------------
