@@ -1,19 +1,16 @@
 const quiz = require('./candidate-testing');
 let candidateName = '';
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
-let questions = ['1) Who was the first American woman in space? ','2) True or false: 5 kilometer == 5000 meters? ','3) (5 + 3)/2 * 10 = ? ',"4) Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2? ",'5) What is the minimum crew size for the ISS? '];
+let questions = ['1) Who was the first American woman in space? ', '2) True or false: 5 kilometer == 5000 meters? ', '3) (5 + 3)/2 * 10 = ? ', "4) Given the array [8, 'Orbit', 'Trajectory', 45], what entry is at index 2? ", '5) What is the minimum crew size for the ISS? '];
 let candidateAnswers = [];
 let correctAnswers = ["Sally Ride", "true", "40", "Trajectory", "3"];
 let grade = 0;
-
-//let correctAnswer = '';
 let candidateAnswer = '';
-//let question = '';
+
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
 
 let question = "Who was the first American woman in space? ";
 let correctAnswer = "Sally Ride";
-//let candidateAnswer = '';
 
 function askForName() {
   // TODO 1.1b: Ask for candidate's name //k
