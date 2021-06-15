@@ -68,7 +68,7 @@ grade = (n/numberOfQuestions)*100;
 
 
 
-}}
+}else {grade=0}}
 //console.log(grade)
 //console.log(numberOfQuestions)
 //console.log(typeof(numberOfQuestions))}
