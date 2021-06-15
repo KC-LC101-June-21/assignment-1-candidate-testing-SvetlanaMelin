@@ -6,13 +6,13 @@ let candidateAnswers = [];
 let correctAnswers = ["Sally Ride", "true", "40", "Trajectory", "3"];
 let grade = 0;
 
-let correctAnswer = '';
+//let correctAnswer = '';
 let candidateAnswer = '';
-let question = '';
+//let question = '';
 // TODO 1.2a: Define question, correctAnswer, and candidateAnswer //
-//let question = "Who was the first American woman in space? ";
-////let correctAnswer = "Sally Ride";
-//let correctAnswer1 = "sally ride";
+
+let question = "Who was the first American woman in space? ";
+let correctAnswer = "Sally Ride";
 //let candidateAnswer = '';
 
 function askForName() {
